@@ -3,9 +3,9 @@ pipeline {
 
     environment {
         IMAGE_NAME = 'zoople-devops-workshop-vijin:latest'
-        CONTAINER_NAME = 'Abinson-app'
+        CONTAINER_NAME = 'abinson-app'
         APP_PORT = '3000'
-        DOMAIN = 'Abinson.workshop.zoople.in'
+        DOMAIN = 'abinson.workshop.zoople.in'
         NGINX_DIR = '/home/ubuntu/nginx'
     }
 
